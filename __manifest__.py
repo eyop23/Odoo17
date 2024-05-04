@@ -1,0 +1,20 @@
+{
+    'name':'Hospital Management',
+    'version': '1.0.1',
+    'category': 'Hospital',
+    'author': 'odoo user',
+    'sequence':-100,
+    'summary': 'Hospital',
+    'description': """Hosptial""",
+    'depends':['mail'],
+    'demo':[],
+    'data':[
+            'security/ir.model.access.csv',
+            'views/menu.xml',
+            'views/patient_view.xml',
+            'views/female_patient_view.xml',
+            'views/Appointment_view.xml',
+           ],
+    'application':True,
+    'auto_install':False,
+}
